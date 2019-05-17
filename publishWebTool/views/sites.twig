@@ -1,0 +1,29 @@
+{% extends 'layout.twig' %}
+{% block scirpt %}
+    <script src="/javascripts/vender/angularjs/angular.min.js"></script>
+    <script src="/javascripts/app/sites.js"></script>
+{% endblock %}
+
+{% block body %}
+<div ng-app="toolKit" ng-controller="SiteController as vm" class="site-container">
+    <section>
+        <div class="container-fluid">
+            <div class="col-lg-12 text-center">
+                <div class="section-tag">所有站点</div>
+                <div class="section-title mb-5"><h2>点击即可进行相应操作</h2></div>
+            </div>
+            <div class="row"> 
+                <div class="col-lg-2 col-md-3 col-sm-4 site" ng-repeat="site in vm.siteList">
+                    <div class="speciality-wrap">
+                        <span class="icon-site"></span>
+                        <a title="__vm.siteStatus[site.state]__">
+                            <i class="status-light" ng-class="{'status-light-runing':(site.state =='Started' ),'status-light-stopped':(site.state =='Stopped' )}"></i>
+                            __site.siteName__
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

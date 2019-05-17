@@ -1,0 +1,36 @@
+.site-container .speciality-wrap i.status-light{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  /* padding-top: 100%; */
+  border-radius: 50%;
+  margin: 0 10px;
+  clip-path: none;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: bottom;
+  padding: 0;
+  clip-path:none;
+}
+
+.site-container .speciality-wrap i.status-light-runing{
+  background: #38ea0b;
+  box-shadow: 0 0 15px #11e148;
+}
+.site-container .speciality-wrap i.status-light-stopped{
+  background: #fb4500;
+  box-shadow: 0 0 15px #f80b0b;
+}
+
+.icon-site{
+  background-image: url(/assets/images/background/site.png);
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 100%;
+  background-position: center;
+}
+
+.site{
+  cursor: pointer;
+}

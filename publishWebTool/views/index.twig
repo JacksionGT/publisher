@@ -1,0 +1,82 @@
+{% extends 'layout.twig' %}
+
+{% block scirpt %}
+  <script src="/javascripts/app/index.js"></script>
+{% endblock %}
+
+
+{% block body %}
+
+    <!--=== header intro ===-->
+    <section id="home" class="header-intro-1 d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header-intro-wrap text-center">
+                        <!--
+                            <div class="header-intro-title"><h3>停止登录服务器<br>方便快捷发版机</h3></div>
+                            <div class="header-intro-tag">拒绝繁琐登录登出拷贝文件，保证你用一次就爱不释手. </div>-->
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="/sites" class="btn btn-primary main-btn bg-main">开始</a></li>
+                                <li class="list-inline-item"><a href="#" class="btn btn-primary main-btn bg-green">使用说明</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <h1>{{title}}</h1>
+                <p>Welcome to {{title}}</p>
+            </div>
+        </div>
+    </section>
+
+    <!--=== speciality ===-->
+    <section class="speciality">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><i class="ion ion-ios-cloud-outline"></i></div>
+                        <a href="#">Marketing Cloud</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><i class="ion ion-ios-book-outline"></i></div>
+                        <a href="#">Marketing Cloud</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><i class="ion ion-ios-browsers-outline"></i></div>
+                        <a href="#">Marketing Cloud</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><i class="ion ion-ios-pie-outline"></i></div>
+                        <a href="#">Marketing Cloud</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><i class="ion ion-ios-medkit-outline"></i></div>
+                        <a href="#">Marketing Cloud</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><i class="ion ion-ios-analytics-outline"></i></div>
+                        <a href="#">Marketing Cloud</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
+

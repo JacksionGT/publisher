@@ -1,0 +1,202 @@
+
+    .page-home .layout-main .mod-list-group .list-group-hd,
+    .page-home .layout-main .mod-list-group .list-group-info,
+    .page-home .layout-main .mod-list-group .list-group-wrapper {
+        margin-left: 10px;
+        margin-right: 60px;
+    }
+
+    .mod-list-group .list-group-item {
+        position: relative
+    }
+
+    .mod-list-group .list-group-item .item-inner {
+        position: relative;
+        height: 56px;
+        line-height: 56px;
+        cursor: default
+    }
+
+    .mod-list-group .list-group-item:after {
+        position: absolute;
+        content: "";
+        display: block;
+        left: 38px;
+        right: 0;
+        height: 1px;
+        background: #f1f2f4;
+        bottom: 0
+    }
+
+    .mod-list-group .item-tit {
+        float: left;
+        width: 50%
+    }
+
+    .mod-list-group .item-info {
+        float: right;
+        width: 50%;
+        color: #777;
+        height: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .mod-list-group .item-tit .label {
+        width: 38px;
+        text-align: center;
+        float: left;
+        cursor: default;
+        visibility: hidden;
+    }
+
+    .mod-list-group .thumb {
+        float: left;
+        font-size: 0;
+        position: relative;
+        z-index: 0;
+    }
+
+    .mod-list-group .item-tit .thumb {
+        float: left;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin: 8px 15px 0 0;
+        cursor: pointer;
+    }
+
+    .mod-list-group .item-tit .info {
+        height: 56px;
+        white-space: nowrap;
+        overflow-y: hidden;
+        position: relative;
+        z-index: 0;
+    }
+
+    .mod-list-group .item-tit .info {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .icon {
+        display: inline-block;
+    }
+
+    .icon-check-s {
+        width: 18px;
+        height: 18px;
+        background-image: url(../img/svg/icon-checkbox.svg);
+    }
+
+    .icon {
+        position: relative;
+        display: inline-block;
+        background-repeat: no-repeat;
+        font-size: 0;
+        overflow: hidden;
+        -webkit-text-size-adjust: none;
+        vertical-align: middle;
+    }
+
+    .mod-list-group .item-tit .thumb .icon {
+        vertical-align: top;
+    }
+
+    .icon-file-m {
+        background-image: url(../img/svg/doctype/icon-file-m.svg);
+    }
+
+    .icon-m {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mod-list-group .item-tit .info .tit,
+    .mod-list-group .item-tit .info .tit-attr,
+    .mod-list-group .item-tit .info .tit-attr-info,
+    .mod-list-group .item-tit .info .tit-attr-item,
+    .mod-list-group .item-tit .info .tit-con,
+    .mod-list-group .item-tit .info .tit-info,
+    .mod-list-group .item-tit .info .tit-link {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 80%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .mod-list-group .item-info .item-info-list {
+        text-indent: 10px;
+        float: left;
+        width: 33.333333333%;
+    }
+
+    .mod-list-group .item-info {
+        float: right;
+        width: 50%;
+        color: #777;
+        height: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .mod-list-group .list-group-item .item-inner {
+        position: relative;
+        height: 56px;
+        line-height: 56px;
+        cursor: default;
+    }
+
+    .mod-list-group .list-group-item .item-inner {
+        position: relative;
+        height: 56px;
+        line-height: 56px;
+        cursor: default;
+    }
+
+    .mod-list-group .item-info {
+        float: right;
+        width: 50%;
+        color: #777;
+        height: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .mod-list-group .item-info .item-info-list {
+        text-indent: 10px;
+        float: left;
+        width: 33.333333333%;
+    }
+
+    .mod-list-group .item-info .item-info-list .txt {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        float: left;
+    }
+
+    .mod-list-group .item-info .txt-time {
+        vertical-align: top;
+    }
+
+    .mod-list-group .item-info .item-info-list .txt-set,
+    .mod-list-group .item-info .item-info-list .txt-size {
+        width: 85px;
+        text-align: right;
+    }
+
+    .mod-list-group .item-info .item-info-list .txt {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        float: left;
+    }
+
+    .mod-list-group .item-info .txt-link,
+    .mod-list-group .item-info .txt-size {
+        display: inline-block;
+        vertical-align: top;
+    }
